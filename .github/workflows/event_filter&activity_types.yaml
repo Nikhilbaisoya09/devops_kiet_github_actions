@@ -1,10 +1,11 @@
 name: Event Filter and Activity Types
 
 on:
-  pull_request:
-    types: opened
-    branches:
-        - main
+#   pull_request:
+#     types: opened
+#     branches:
+#         - main
+    workflow_dispatch:
     
 jobs:
     echo:
