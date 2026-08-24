@@ -23,8 +23,8 @@ jobs:
                 echo "Workflow: ${{ github.workflow }}"
                 echo "Repository: ${{ github.repository }}"
                 echo "Run ID: ${{ github.run_id }}"
-                echo "Run Number: ${{ github.run_number }}"
-                echo "Job Name: ${{ github.job }}"
+                echo "Run Number: ${{ giName: $thub.run_number }}"
+                echo "Job {{ github.job }}"
 
             - name: Retreive variable value
               run: |
